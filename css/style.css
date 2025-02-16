@@ -268,3 +268,59 @@ nav{
   font-weight: 400;
 }
 /* service end  */
+/* work start  */
+#work{
+  background: var(--ash-bg);
+  padding: 150px 0;
+  text-align: center;
+}
+.work--heading{
+  color: var(--black);
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.work--para{
+  color: var(--ash);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 620px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 106px;
+}
+.work__cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.work__card{
+  width: 424px;
+  height: 457px;
+  background: #ffff;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+.work__card:hover{
+  background: var(--ash-bg);
+
+}
+.work__card--subheading{
+font-size: 20px;
+font-weight: 700;
+line-height: auto;
+color: var(--black);
+margin-top: 30px;
+margin-bottom: 10px;
+}
+.work__card--para{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: var(--ash);
+width: 340px;
+margin: 0 auto;
+}
+/* work end  */
