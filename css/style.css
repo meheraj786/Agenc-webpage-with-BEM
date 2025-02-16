@@ -20,7 +20,9 @@ html{
   --purple: #6A4DF4;
   --bg: #E0FFF9;
   --ash-bg:#F3F3F3;
-  --shadow: 0px 0px 10px 2px rgba(0, 0, 0, .25)
+  --shadow: 0px 0px 10px 2px rgba(0, 0, 0, .25);
+  --ash: #737373;
+  --black: #151515;
 }
 
 body{
@@ -167,3 +169,67 @@ nav{
   border: 3px solid #ffff;
 }
 /* banner end  */
+/* about start  */
+#about{
+  padding-top: 171px;
+  padding-bottom: 150px;
+}
+.about__wrapper{
+  display: flex;
+  justify-content: space-around;
+  padding: 90px 0;
+
+  background: var(--bg);
+}
+.about__text{
+  width: 20%;
+}
+.about--p{
+  color: var(--purple);
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 120%;
+  margin-bottom: 15px;
+}
+.about--heading{
+  color: var(--black);
+  font-size: 35px;
+  font-weight: 600;
+  line-height: auto;
+  width: 387px;
+}
+.about__stats{
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.about__stat--subheading{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: auto;
+  color: var(--black);
+  margin-bottom: 20px;
+}
+.about__stat--para{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  color: var(--ash);
+}
+/* about end  */
+/* service start  */
+#service{
+  padding-bottom: 103px;
+}
+.service--heading{
+  font-size: 45px;
+  color: var(--black);
+  font-weight: 700;
+}
+.service--para{
+  font-size: 16px;
+  color: var(--ash);
+  font-weight: 700;
+  line-height: 26px;
+}
+/* service end  */
