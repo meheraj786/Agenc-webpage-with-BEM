@@ -385,5 +385,73 @@ width: 344px;
   display: flex;
   flex-wrap: wrap;
 }
-
 /* choose end  */
+/* review start  */
+#review{
+  padding-bottom: 227px;
+}
+.review__title{
+  text-align: center;
+  margin-bottom: 130px;
+}
+.review--heading{
+  color: var(--black);
+  font-size: 45px;
+  line-height: auto;
+  font-weight: 700;
+}
+.review--para{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--ash);
+  width: 620px;
+  margin: 0 auto;
+  margin-top: 20px;
+  }
+  .review__wrapper{
+    display: flex;
+  }
+  .review__card{
+    width: 424px;
+    height: 422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 54px 58px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  .review__card:hover{
+    background: var(--ash-bg);
+  }
+  .review--quote{
+    font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--ash);
+  margin: 20px 0;
+  }
+  .review__client{
+display: flex;
+margin-top: 30px;
+align-items: center;
+  }
+  .client__details{
+    margin-left: 20px;
+  }
+  .client--name{
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  .client--detail{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--ash);
+  }
+
+/* review end  */
